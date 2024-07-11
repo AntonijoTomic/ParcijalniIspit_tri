@@ -45,11 +45,5 @@
     <Compile Include="Klase\Predavac.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Ispit.Proizvodi\Ispit.Proizvodi.csproj">
-      <Project>{44a58b31-9407-4232-8ed2-abdfd876068b}</Project>
-      <Name>Ispit.Proizvodi</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

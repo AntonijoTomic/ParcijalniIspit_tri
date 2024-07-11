@@ -1,10 +1,11 @@
-﻿using Ispit.Proizvodi.Klase;
+﻿
+using Ispit.Proizvodi.Klase;
 using System;
 using System.Collections.Generic;
 
 namespace Ispit.Proizvodi
 {
-    public delegate void PocniPisatiIspit(DateTime vrijemePocetka);
+   
     internal class Program
     {
         static void Main(string[] args)
