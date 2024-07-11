@@ -50,9 +50,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Ispit.klase\Ispit.prizvodi.csproj">
+    <ProjectReference Include="..\Ispit.klase\Ispit.Proizvodi.csproj">
       <Project>{d4ac180a-a43b-44de-8ebe-b04a59ef1f63}</Project>
-      <Name>Ispit.prizvodi</Name>
+      <Name>Ispit.Proizvodi</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
