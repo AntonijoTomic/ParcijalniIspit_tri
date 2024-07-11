@@ -29,13 +29,11 @@ namespace Ispit.Proizvodi
 
             foreach(Polaznik p in polaznici)
             {
+                p.IspitZavrsen += predavac.IspitZaprimljen;
                 p.OdgovoriNaPitanja(DateTime.Now);
             }
 
             polaznici[0].PredajOdgovoreNaPitanja();
-
-            predavac.IspitZaprimljen(polaznici[0]);
-
 
             Console.ReadKey();
         }
