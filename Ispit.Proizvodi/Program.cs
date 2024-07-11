@@ -12,12 +12,10 @@ namespace Ispit.Proizvodi
         {
             Predavac predavac = new Predavac()
             {
-                Id=1,
-                Ime="Karlo",
-                Prezime="Markovic"
-            };
-
-            predavac.ZvoniZvono();
+                Id = 1,
+                Ime = "Karlo",
+                Prezime = "Markovic"
+            };        
 
             List<Polaznik> polaznici = new List<Polaznik>
             {
@@ -27,12 +25,18 @@ namespace Ispit.Proizvodi
               new Polaznik { Id = 4, Ime = "Ratko", Prezime = "Cosic" }
             };
 
-            foreach(Polaznik p in polaznici)
+            predavac.Ispit += delegate(DateTime vrijemePocetka)
             {
-                p.IspitZavrsen += predavac.IspitZaprimljen;
-                p.OdgovoriNaPitanja(DateTime.Now);
-            }
+                foreach (Polaznik p in polaznici)
+                {
+                    p.OdgovoriNaPitanja(vrijemePocetka);
+                    p.IspitZavrsen += predavac.IspitZaprimljen;
+                }
+            };
 
+            predavac.ZvoniZvono();
+
+            
             polaznici[0].PredajOdgovoreNaPitanja();
 
             Console.ReadKey();

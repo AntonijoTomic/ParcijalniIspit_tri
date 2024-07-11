@@ -3,6 +3,7 @@
 namespace Ispit.Proizvodi.Klase
 {
     public delegate void PocniPisatiIspit(DateTime vrijemePocetka);
+
     public class Predavac
     {
         public event PocniPisatiIspit Ispit;
