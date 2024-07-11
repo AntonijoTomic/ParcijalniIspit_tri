@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ispit.Proizvodi", "Ispit.Proizvodi\Ispit.Proizvodi.csproj", "{44A58B31-9407-4232-8ED2-ABDFD876068B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ispit.Main", "Ispit.Proizvodi\Ispit.Main.csproj", "{44A58B31-9407-4232-8ED2-ABDFD876068B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ispit.klase", "Ispit.klase\Ispit.klase.csproj", "{D4AC180A-A43B-44DE-8EBE-B04A59EF1F63}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ispit.prizvodi", "Ispit.klase\Ispit.prizvodi.csproj", "{D4AC180A-A43B-44DE-8EBE-B04A59EF1F63}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
